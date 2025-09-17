@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin Property Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Margin Property Demonstration</h1>
+        
+        <div class="demo-area">
+            <h2>Boxes with Different Margins</h2>
+            <div class="box box1">Margin: 20px all around</div>
+            <div class="box box2">Margin: 40px top/bottom<br>20px left/right</div>
+        </div>
+
+        <div class="demo-area">
+            <h2>Centered Box</h2>
+            <div class="box centered-box">Margin: 30px auto</div>
+        </div>
+
+        <div class="margin-info">
+            <h3>About Margins:</h3>
+            <p>Margins create space <strong>outside</strong> an element's border, unlike padding which creates space <strong>inside</strong> the border.</p>
+            <p>Key points about margins:</p>
+            <ul>
+                <li>Positive margins push other elements away</li>
+                <li>Negative margins can pull elements closer together</li>
+                <li>Using <code>margin: auto</code> on a block element with a defined width will center it horizontally</li>
+                <li>Margins can collapse between adjacent elements</li>
+            </ul>
+        </div>
+
+        <div class="controls">
+            <h3>Margin Shorthand Property</h3>
+            <p>The <code>margin</code> property can take 1-4 values:</p>
+            <ul>
+                <li><code>margin: 10px;</code> - all four sides</li>
+                <li><code>margin: 10px 20px;</code> - top/bottom, then left/right</li>
+                <li><code>margin: 10px 20px 30px;</code> - top, left/right, bottom</li>
+                <li><code>margin: 10px 20px 30px 40px;</code> - top, right, bottom, left (clockwise)</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
